@@ -1,0 +1,13 @@
+[project]
+name = "hello-sf-mcp"
+version = "0.1.0"
+
+[build]
+# Usa Python 3.13
+runtime = "python3.13"
+
+[server]
+# MCP usa FastMCP e si espone sulla porta 3000
+command = "uv run python main.py"
+port = 3000
+
